@@ -34,8 +34,21 @@
 // let convertidor = edad * 7
 // console.log('la edad canina de tu mascota es', convertidor);
 
+
 //convertidor de grados celcius a farenheit
-let Celcius = Number(prompt('convierte de celcius a farenheit, dime el valor a convertir'));
-let convertidor = (Celcius*9/5)+32;
-console.log('tu conversion es de', convertidor,'F')
+// let Celcius = Number(prompt('convierte de celcius a farenheit, dime el valor a convertir'));
+// let convertidor = (Celcius*9/5)+32;
+// console.log('tu conversion es de', convertidor,'F');
+
+
+//convertidor de pesos a dolares
+
+// let pesos = Number(prompt('convertidor de pesos a dolares, dime el valor en pesos'));
+// let dolares = pesos * 0.00027;
+// console.log('tu valor en dolares es', dolares)
+
+let dolares1 = Number(prompt('convertidor de dolares a pesos, dime el valor en dolares'));
+let pesos1 = dolares1 * 4000;
+console.log('tu valor en pesos es', pesos1)
+
   

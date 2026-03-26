@@ -30,11 +30,12 @@
 
 //convertidor a edad canina
 
-let edad = Number(prompt('cuantos años tiene tu mascota'))
+// let edad = Number(prompt('cuantos años tiene tu mascota'));
+// let convertidor = edad * 7
+// console.log('la edad canina de tu mascota es', convertidor);
 
-let convertidor = edad * 7
-
-console.log('la edad canina de tu mascota es', convertidor)
-
-
+//convertidor de grados celcius a farenheit
+let Celcius = Number(prompt('convierte de celcius a farenheit, dime el valor a convertir'));
+let convertidor = (Celcius*9/5)+32;
+console.log('tu conversion es de', convertidor,'F')
   

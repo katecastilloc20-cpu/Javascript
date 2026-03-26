@@ -73,8 +73,17 @@
 // let segundos = minutos * 60;
 // alert('los segundos son: '+ segundos);
 
-let segundos = Number (prompt('convertidor de segundos a minutos, dime los segundos'));
-let minutos = segundos / 60;
-alert('los segundos son: '+ minutos);
+//  let segundos = Number (prompt('convertidor de segundos a minutos, dime los segundos'));
+// let minutos = segundos / 60;
+// alert('los segundos son: '+ minutos);
+
+
+
+//area de un triangulo 
+let base = Number(prompt('dime la base del triangulo '));
+let altura = Number(prompt('dime la altura del triangulo '));
+let area = (base*altura)/2;
+alert('el area del triangulo es ' + area);
+
 
   

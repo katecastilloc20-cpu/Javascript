@@ -20,12 +20,21 @@
 
 
 
+// let kilometro = Number(prompt('dime que numero en km'));
 
-let kilometro = Number(prompt('dime que numero en km'));
+
+// let metro = (kilometro * 1000);
+// alert('tu conversion en metros es ' + metro);
 
 
-let metro = (kilometro * 1000);
-alert('tu conversion en metros es ' + metro);
+
+//convertidor a edad canina
+
+let edad = Number(prompt('cuantos años tiene tu mascota'))
+
+let convertidor = edad * 7
+
+console.log('la edad canina de tu mascota es', convertidor)
 
 
   

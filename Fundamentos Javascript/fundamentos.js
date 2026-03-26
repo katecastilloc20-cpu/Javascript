@@ -80,10 +80,16 @@
 
 
 //area de un triangulo 
-let base = Number(prompt('dime la base del triangulo '));
-let altura = Number(prompt('dime la altura del triangulo '));
-let area = (base*altura)/2;
-alert('el area del triangulo es ' + area);
+// let base = Number(prompt('dime la base del triangulo '));
+// let altura = Number(prompt('dime la altura del triangulo '));
+// let area = (base*altura)/2;
+// alert('el area del triangulo es ' + area);
+
+
+//convertidor de milimetros a centimetros
+let milimetros = Number(prompt('convertidos de ml a cm, dime los milimetros'));
+let centimetros = milimetros / 10
+alert('los centimetros son : ' + centimetros )
 
 
   

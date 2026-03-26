@@ -49,14 +49,21 @@
 
 // let dolares1 = Number(prompt('convertidor de dolares a pesos, dime el valor en dolares'));
 // let pesos1 = dolares1 * 4000;
-// console.log('tu valor en pesos es', pesos1)
+// console.log('tu valor en pesos es', pesos1);
 
 
 
 //calcular area de un cuadrado
-let lado = Number(prompt('dime el valor del cuadrado'))
-let area = lado * lado
+// let lado = Number(prompt('dime el valor del cuadrado'));
+// let area = lado * lado;
 
-alert('el area del cuadrado es de '+ area)
+// alert('el area del cuadrado es de '+ area);
+
+
+
+//calcular el perimetro de un cuadrado
+let cuadrado = Number(prompt('di el valor del cuadrado'))
+let perimetro = 4 * cuadrado
+alert('el perimetro del cuadrado es de '+ perimetro)
 
   

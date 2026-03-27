@@ -115,14 +115,25 @@
 
 
 
-let personas = Number(prompt(`cuantas personas son?`));
-let precio = Number(prompt(`cuanto costo la cena?`));
-let nombre = prompt(`quien comio más?`);
-let nombre1 = prompt(`quien comio menos?`);
+// let personas = Number(prompt(`cuantas personas son?`));
+// let precio = Number(prompt(`cuanto costo la cena?`));
+// let nombre = prompt(`quien comio más?`);
+// let nombre1 = prompt(`quien comio menos?`);
 
-let total = precio/(personas + 1);
-let total1 = total* 2;
-let total3 = total / 2;
-5
-let final = total + total3 / 2
-console.log(`${nombre} pagaria ${total1}, ${nombre1} pagaria ${total3} y el resto tendrian que pagar ${total}`);
+// let total = precio/(personas + 0.5);            
+// let total1 = total* 2;                       
+// let total3 = total / 2;                        
+
+// let final = total + total3 / 2               
+// console.log(`${nombre} pagaria ${total1}, ${nombre1} pagaria ${total3} y el resto tendrian que pagar ${total}`);
+
+
+let cdt = Number(prompt(`cuanto piensa guardar en el cdt?`))
+let tiempo = Number(prompt(`defina el tiempo en meses`))
+
+let rendimiento = cdt * (0.10 / 12)
+
+let meses = tiempo * rendimiento
+
+
+console.log(`su ganancia sera de: ${meses}`)

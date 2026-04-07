@@ -128,12 +128,14 @@
 // console.log(`${nombre} pagaria ${total1}, ${nombre1} pagaria ${total3} y el resto tendrian que pagar ${total}`);
 
 
-let cdt = Number(prompt(`cuanto piensa guardar en el cdt?`))
-let tiempo = Number(prompt(`defina el tiempo en meses`))
+// let cdt = Number(prompt(`cuanto piensa guardar en el cdt?`))
+// let tiempo = Number(prompt(`defina el tiempo en meses`))
 
-let rendimiento = cdt * (0.10 / 12)
+// let rendimiento = cdt * (0.10 / 12)
 
-let meses = tiempo * rendimiento
+// let meses = tiempo * rendimiento
 
 
-console.log(`su ganancia sera de: ${meses}`)
+// console.log(`su ganancia sera de: ${meses}`)
+
+

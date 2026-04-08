@@ -81,16 +81,89 @@
 // console.log(resultado)
 
 
-let options = ['piedra', 'papel', 'tijera'];
-let azar = Math.floor(Math.random( ) *3);
+// let options = ["piedra", "papel", "tijera"];
+// let azar = Math.floor(Math.random( ) *3);
 
-let computer= options[azar]
+// let computer= options[azar]
 
-let user = prompt('piedra, papel o tijera: ')
+// let user = prompt("piedra, papel o tijera: ")
 
-let resultado = []
+// let resultado = []
 
-if (options  ){}
+// if (user === computer) {
+//   resultado = "Empate";
+// } else if (
+//   (user === "piedra" && computer === "tijera") ||
+//   (user === "papel" && computer === "piedra") ||
+//   (user === "tijera" && computer === "papel")
+// ) {
+//   resultado = "Ganaste";
+// }
+
+// else {
+//   resultado = "perdiste";
+// }
+
+// console.log(resultado)
+
+
+//for (bucle)
+
+//let i; i<frutas.length; i++ // 
+
+
+// let numeros = [1,3,4,6,9]
+// let pares = []
+// let impares = []
+
+// for(i=0; i<numeros.length; i++){
+
+//     if(numeros [i]  % 2 ===0){
+//         pares.push(numeros[i])
+// }
+// else{
+//   impares.push(numeros[i])
+// }
+// console.log('los pares son',  pares)
+// console.log('los impares son', impares)
+
+// }
+
+
+// for(i=1; i<11; i++){
+
+//     let num1 = Number(prompt(`dime un numero del 1 al 10 para hacer la tabla de multiplicación`))
+
+//     let num2 = Number(prompt(`dime un numero del 1 al 10, para definir el rango`))
+
+
+// if(tabla<1 || rango <1)
+//     {console.log('los valores deben ser positivos')
+
+//     }
+
+// else if (tabla>10) 
+// { 
+//     console.log('la tabla debe ser de 1 a 10')
+// }
+// else { for(i=1; i<=rango; i++)}
+
+//  console.log('$ {tabla} * $ [i] = ${i*tabla} ')
+// }
 
 
 
+let numeros = [3, 5, 6, 8, 23, 6, 4, 15];
+let suma = 0;
+let max = numeros[0];
+
+for(let i=0; i<numeros.length; i++){
+    suma += numeros[i];
+
+      if(numeros[i] >max){
+        max=numeros[i];
+}
+
+    }
+    console.log("suma:", suma);
+    console.log("max:", max);

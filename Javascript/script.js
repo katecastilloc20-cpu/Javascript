@@ -1,16 +1,14 @@
 let palabras = ["casa", "perro", "gato", "arboles", "cielo", "mar", "so", "luna", "flor", "río"];
 
-let contador = 0;
 let larga= palabras[0]
 let corta= palabras[0]
-
+let palabras2 = 0
 
 
 for (let i=0; i<palabras.length; i++){
- contador= palabras[i]
- palabras[i]= contador.length
+ let len= palabras[i].length
 
-console.log("la palabra", contador, "tiene", + contador.length, "letras")
+console.log(`la palabra" ${palabras} "tiene" ${len} "letras`)
 
 
  if (palabras[i].length > larga.length){
@@ -19,17 +17,12 @@ console.log("la palabra", contador, "tiene", + contador.length, "letras")
  } if (palabras[i].length < corta.length){
     corta = palabras[i];}
 
-   
-
+    palabras2.unshift(palabras[i]);
 }
 
-
- 
-
- console.log("palabra mas larga es",  larga)
-
-    console.log("la palabra mas corta es",  corta)
-
+    console.log(larga)
+    console.log(  corta)
+    console.log(palabras2)
 
 
 

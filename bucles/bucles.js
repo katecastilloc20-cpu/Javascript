@@ -3,6 +3,17 @@ const nombre = [
     { nombres: 'maria', apellido: 'torres', edad: 23, altura: 1.74, peso: 77 },
     { nombres: 'luisa', apellido: 'prieto', edad: 48, altura: 1.56, peso: 83 }
 ]
+
+function init(){
+    nombre.forEach(function(person){
+        calcularImc(person.weight, person.height)
+    }
+
+)
+}
+
+
+
 calcularImc (56, 1.67)
 
 function calcularImc (weight, height){
